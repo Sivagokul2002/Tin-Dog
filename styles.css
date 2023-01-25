@@ -1,0 +1,188 @@
+#title{
+    text-align: center;
+}
+
+.con{
+    padding: 7% 15%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Bold';
+}
+
+.leftalign{
+    text-align:left ;
+}
+
+.big-heading{
+    font-family: 'Monserrat-Black';
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.session-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section */
+
+.white-section{
+    background-color: #fff;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.navbarbrand {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #fff ;
+}
+
+.navbar-nav {
+    padding: 0 0 4.5rem 0;
+    padding-top: 1.5rem;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.nav-link{
+    font-size: 1.8rem;
+    font-family: 'Montserrat-light';
+}   
+
+/* Download-button */
+
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features Section*/
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.Feature-title{
+    font-size: 1.5rem;
+}
+
+.textalign{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
+
+.iconcolor{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.iconcolor:hover{
+    color: #ff4c68;
+}
+
+
+/* Testinomial Section */
+
+.test_text{
+    font-size: 3rem;
+    line-height: 1.5; 
+    font-weight: 600;
+}
+
+#testimonials{
+    /* text-align: center; */
+    background-color: #ef8172;
+}
+
+.img-chg{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    /* text-align: center; */
+    padding-bottom: 3rem;   
+}
+
+.img-logo{
+    width: 15%;
+    margin: 20px 20px 50px; 
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price_text{
+    font-size: 3rem;
+    line-height: 1.5; 
+    font-weight: 600;
+}
+
+.pri-sty{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* Media Query */
+ @media (max-width: 900px){
+
+    .title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+ }
+
+
+/* cta-section */
+
+/* #cta{
+     text-align: center; 
+} */
+
+/* footer section */
+
+#footer{
+    text-align: center;
+}
+
+.soc-icon{
+    margin: 20px 10px;
+}
